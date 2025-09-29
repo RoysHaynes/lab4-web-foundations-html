@@ -239,6 +239,7 @@
             <hgroup>
                 <h1>Main Page Title</h1>
                 <h2>Subtitle or Tagline</h2>
+                <h3>Stuff</h3>
             </hgroup>
         </header>
 
@@ -325,6 +326,54 @@
         <p>Sample meter</p>
         <meter value="0.6" min="0" max="1">60%</meter>
     </li>
+
+    <li>
+        <h3>The Navigation (nav) Element</h3>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </li>
+
+    <li>
+        <h3>The no script element</h3>
+        <noscript>
+            <p>JavaScript is disabled in your browser — some features may not work.</p>
+        </noscript>
+        <p> If scripting is enabled then you won't see the message above</p>
+    </li>
+
+    <li>
+        <h3>The Option Group Element</h3>
+        <label for="cars">Choose a car brand:</label>
+        <select id="cars" name="cars">
+            <optgroup label="Japanese Brands">
+                <option value="toyota">Toyota</option>
+                <option value="honda">Honda</option>
+                <option value="mazda">Mazda</option>
+            </optgroup>
+        </select>
+    </li>
+
+    <li>
+        <h3>The Output Element</h3>
+        <form oninput="sum.value = parseInt(a.value) + parseInt(b.value)">
+            <label>First number:
+                <input type="number" id="a" value="5">
+            </label>
+            +
+            <label>Second number:
+                <input type="number" id="b" value="3">
+            </label>
+            =
+            <output name="sum" for="a b">8</output>
+        </form>
+    </li>
+
 
 
 
