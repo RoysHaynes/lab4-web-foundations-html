@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        h1 {
+            color: blue;
+        }
+    </style>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +14,13 @@
     <link rel="icon" type="image/png" href="Evan.png">
     <base href="">
 
+
 </head>
 <body>
-<
-<h1>My HTML property walk</h1>
-<h2>By Roy Haynes</h2>
+<main>
+    <h1>My HTML property walk</h1>
+    <h2>By Roy Haynes</h2>
+</main>
 <ol>
     <li><h3>Anchor element <a href="https://www.wikipedia.org/"> Visit Wikipedia</a></h3></li>
 
@@ -30,9 +37,9 @@
     <li>
         <h3>Image Map Area element with Image </h3>
         <map name="infographic">
-            <area shape="rect" coords="0,0,100,100" href="https://developer.mozilla.org/docs/Web/HTML" alt="HTML"/>
+            <area shape="rect" coords="0,0,100,100" href="https://developer.mozilla.org/docs/Web/HTML" alt="HTML">
         </map>
-        <img usemap="#infographic" src="https://picsum.photos/200/100" alt="Test image map"/>
+        <img usemap="#infographic" src="https://picsum.photos/200/100" alt="Test image map">
     </li>
     <li>
         <h3>Article element </h3>
@@ -82,7 +89,7 @@
 
     <li>
         <h3> Line Break Element </h3>
-        <p>An old silent pond<br/>A frog jumps into the pond—<br/>Splash! Silence again.</p>
+        <p>An old silent pond<br>A frog jumps into the pond—<br>Splash! Silence again.</p>
     </li>
 
     <li>
@@ -107,22 +114,7 @@
             <td>Yellow</td>
         </tr>
     </table>
-        <style>
-            .styled-table {
-                border-collapse: collapse; /* merges double borders */
-                width: 50%;
-            }
-            .styled-table th,
-            .styled-table td {
-                border: 1px solid black;
-                padding: 8px;
-                text-align: left;
-            }
-            .styled-table caption {
-                font-weight: bold;
-                margin-bottom: 0.5em;
-            }
-        </style>
+    </li>
 
     <li>
         <h3>Citation element</h3>
@@ -238,8 +230,7 @@
         <header>
             <hgroup>
                 <h1>Main Page Title</h1>
-                <h2>Subtitle or Tagline</h2>
-                <h3>Stuff</h3>
+                <p>More stuff</p>
             </hgroup>
         </header>
 
@@ -286,13 +277,6 @@
         <p> Check the tab icon</p>
     </li>
 
-    <li>
-        <h3>The main element</h3>
-        <p> Honey Badgers</p>
-        <main>
-            They have no problem eating cobras and can sleep off their poison
-        </main>
-    </li>
 
     <li>
         <h3>The Mark Text element</h3>
@@ -544,8 +528,40 @@
         <p>My naval science class starts at <time datetime="2025-09-30T07:30">7:30 AM, Sept 30, 2025</time></p>
     </li>
 
+    <li>
+        <h3>The unarticulated Annotation</h3>
+        <p>This is <u>underlined</u></p>
+    </li>
 
+    <li>
+        <h3>The Variable Element</h3>
+        <p>
+            The formula for the area of a circle is:
+            <var>A</var> = <var>π</var><var>r</var><sup>2</sup>
+        </p>
+    </li>
 
+    <li>
+        <h3>The Video Element</h3>
+        <video controls width="320">
+            <source src="Beatles2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </li>
+
+    <li>
+        <h3>The Line Break Opportunity Element</h3>
+        <p>
+            ThisIsAVeryLongWord<wbr>ThatCanBreak<wbr>AtThesePoints.IfYourScreenIsSmallEnoughToForceItToBreak
+        </p>
+    </li>
+
+    <li>
+        <h3>Custom Element</h3>
+        <p>
+            Here is my custom element: <my-school>University of San Diego</my-school>
+        </p>
+    </li>
 
 
 
