@@ -21,6 +21,7 @@
     <h1>My HTML property walk</h1>
     <h2>By Roy Haynes</h2>
 </main>
+<h1>Elements </h1>
 <ol>
     <li><h3>Anchor element <a href="https://www.wikipedia.org/"> Visit Wikipedia</a></h3></li>
 
@@ -562,6 +563,70 @@
             Here is my custom element: <my-school>University of San Diego</my-school>
         </p>
     </li>
+</ol>
+
+<h1> Attributes</h1>
+<ol>
+    <li>
+        <h3>Accept Attribute </h3>
+        <input type="file" accept="image/*">
+        <p>click an image file</p>
+    </li>
+
+    <li>
+        <h3>Autocomplete Attribute </h3>
+        <form>
+            <input type="text" name="city" autocomplete="on" placeholder="Autocomplete on">
+        </form>
+    </li>
+
+    <li>
+        <h3>Capture Attribute</h3>
+        <input type="file" accept="image/*" capture="user">
+    </li>
+
+    <li>
+        <h3> Content Attribute</h3>
+        <p>this page refreshes every minute</p>
+        <meta http-equiv="refresh" content="60">
+    </li>
+
+    <li>
+        <h3>The Crossorigin Attribute Example</h3>
+        <p>The image below uses cross orign attribute:</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png"
+             alt="Transparent PNG demo"
+             crossorigin="anonymous"
+             width="200">
+    </li>
+
+    <li>
+        <h3>The dirname Attribute</h3>
+        <form action="/submit" method="get">
+            <input type="text" name="username" dirname="username.dir">
+            <button type="submit">Submit</button>
+        </form>
+        <p>The dirname attribute submits the text direction along with the field value</p>
+    </li>
+
+    <li>
+        <h3>The Disabled Attribute</h3>
+        <button disabled>Can't Click Me</button>
+    </li>
+
+    <li>
+        <h3>The elementtiming Attribute</h3>
+        <img alt="alt" src="Evan.png" elementtiming="Label for element">
+    </li>
+
+    <li>
+        <h3>The for Attribute</h3>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </form>
+    </li>
+
 
 
 
