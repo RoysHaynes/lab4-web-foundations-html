@@ -494,15 +494,55 @@
     </li>
 
 
+    <li>
+        <h3>Table with Tbody, Tfoot, Td, Tr, Th + Template + Textarea</h3>
+        <table>
+            <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Apples</td>
+                <td>$2.00</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Bananas</td>
+                <td>$1.50</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Cherries</td>
+                <td>$3.00</td>
+                <td>2</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3">
+                    <form>
+                        <label for="comment">Add a note about this table:</label><br>
+                        <textarea id="comment" name="comment" rows="3" cols="40" placeholder="Type here..."></textarea>
+                    </form>
+                    <button type="button" onclick="">Insert Note</button>
+                    <div id="notes"></div>
+                    <template id="note-template">
+                        <p><strong>Note:</strong> </p>
+                    </template>
+                </td>
+            </tr>
+            </tfoot>
+        </table>
+    </li>
 
-
-
-
-
-
-
-
-
+    <li>
+        <h3>The Time Element</h3>
+        <p>My naval science class starts at <time datetime="2025-09-30T07:30">7:30 AM, Sept 30, 2025</time></p>
+    </li>
 
 
 
