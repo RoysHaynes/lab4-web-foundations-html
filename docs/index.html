@@ -699,8 +699,56 @@
 <h1>Global Attributes</h1>
 <ol>
     <li>
-
+        <h3>The accesskey Attribute</h3>
+        <p>
+            Press <kbd>Alt</kbd> + <kbd>H</kbd> (Windows) to focus this link:
+            <a href="https://www.wikipedia.org" accesskey="h">Wikipedia</a>
+        </p>
     </li>
+
+    <li>
+        <h3>The autocapitalize Attribute</h3>
+        <input type="text" placeholder="Type here" autocapitalize="words">
+        <p>(First letter of each word will auto-capitalize on mobile devices.)</p>
+    </li>
+
+    <li>
+        <h3>The autocorrect Attribute</h3>
+        <input type="text" placeholder="Try typos" autocorrect="on">
+    </li>
+
+    <li>
+        <h3>The autofocus Attribute</h3>
+        <input type="text" placeholder="This field is focused on load" autofocus>
+    </li>
+
+    <li>
+        <h3>The class Attribute</h3>
+        <p class="highlight">This text uses a CSS class.</p>
+        <style>
+            .highlight { color: blue; font-weight: bold; }
+        </style>
+    </li>
+
+    <li>
+        <h3>The contenteditable Attribute</h3>
+        <p contenteditable="true">You can click here and edit this text.</p>
+    </li>
+
+    <li>
+        <h3>The data-* Attribute</h3>
+        <p data-course="Web Foundations">This paragraph has a <code>data-course</code> attribute.</p>
+        <script>
+            const course = document.querySelector("[data-course]");
+            console.log("Data attribute value:", course.dataset.course);
+        </script>
+    </li>
+
+    <li>
+        <h3>The dir Attribute</h3>
+        <p dir="rtl">This is in english but reads right to left.</p>
+    </li>
+
 </ol>
 </body>
 </html>
