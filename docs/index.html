@@ -40,7 +40,7 @@
         <a href="tel:+14088170682">+1 (408)817‑0682</a><br></address>
     </li>
     <li>
-        <h3>Image Map Area element </h3>
+        <h3>Image Map Area element with Image </h3>
         <map name="infographic">
             <area shape="rect" coords="0,0,100,100" href="https://developer.mozilla.org/docs/Web/HTML" alt="HTML"/>
         </map>
@@ -104,7 +104,7 @@
 
     <li>
         <h3>Table Caption Element</h3>
-        <table border="1">
+        <<table class="styled-table">
         <caption>Favorite Fruits</caption>
         <tr>
             <th>Fruit</th>
@@ -115,11 +115,26 @@
             <td>Red</td>
         </tr>
         <tr>
-            <td>Kiwi</td>
-            <td>Green</td>
+            <td>Banana</td>
+            <td>Yellow</td>
         </tr>
-        </table>
-    </li>
+    </table>
+        <style>
+            .styled-table {
+                border-collapse: collapse; /* merges double borders */
+                width: 50%;
+            }
+            .styled-table th,
+            .styled-table td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
+            .styled-table caption {
+                font-weight: bold;
+                margin-bottom: 0.5em;
+            }
+        </style>
 
     <li>
         <h3>Citation element</h3>
@@ -137,7 +152,7 @@
     </li>
 
     <li>
-        <h3> The HTML Data List Element </h3>
+        <h3> The HTML Data List,Input Label, Option element </h3>
         <label for="browser">Choose a browser:</label>
         <input list="browsers" id="browser" name="browser">
 
@@ -229,6 +244,50 @@
             <p>&copy; 2025 Roy Haynes</p>
         </footer>
     </li>
+
+    <li>
+        <h3>, Head, Header, Hgroup, H1, and HR Elements</h3>
+        <header>
+            <hgroup>
+                <h1>Main Page Title</h1>
+                <h2>Subtitle or Tagline</h2>
+            </hgroup>
+        </header>
+
+        <p>This is some example body text under the header.</p>
+
+        <hr>
+
+        <p>Content after the horizontal rule.</p>
+
+    </li>
+
+    <li>
+        <h3>The Italic (i) Element</h3>
+        <p>
+            The word <i>café</i> is italicized.
+        </p>
+    </li>
+
+    <li>
+        <h3>The Inline Frame Element</h3>
+            <iframe width="300" height="200"
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+    </li>
+
+    <li>
+        <h3>The Inserted Text (ins) Element</h3>
+        <p>
+            This sentence has <ins>newly added text</ins> underlined.
+        </p>
+    </li>
+
+
+
 
 
 
