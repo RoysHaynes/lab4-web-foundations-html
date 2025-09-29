@@ -24,10 +24,62 @@
 <yes-sir>It complete is a <b>great</b> day for writing trashy HTML!</yes-sir>
 
 
-<h2>Start of my HTML property walk</h2>
+<h1>Start of my HTML property walk</h1>
 <ol>
-    <li><p>Anchor element: <a href="https://www.wikipedia.org/"> Visit Wikipedia</a></p></li>
-    <li><p>Abbreviation element: <abbr title="World Wide Web">WWW</abbr> </p> </li>
+    <li><h3>Anchor element: <a href="https://www.wikipedia.org/"> Visit Wikipedia</a></h3></li>
+
+    <li><h3>Abbreviation element: <abbr title="World Wide Web">WWW</abbr> </h3> </li>
+
+    <!-- The <acronym> element is deprecated in HTML5 and replaced by <abbr>.
+     I left it here intentionally to see if it still works. -->
+    <li><h3>Acronym element: <acronym title="As Soon As Possible">ASAP</acronym></h3></li>
+
+    <li><h3>Address element: Contact info for author of page </h3>
+        <address><a href="rhaynes@sandiego.edu">rhaynes@sandiego.edu</a><br />
+        <a href="tel:+14088170682">+1 (408)817‑0682</a></address>
+    </li>
+    <li>
+        <h3>Map area element: </h3>
+        <map name="infographic">
+            <area shape="rect" coords="0,0,100,100" href="https://developer.mozilla.org/docs/Web/HTML" alt="HTML" />
+        </map>
+        <img
+                usemap="#infographic"
+                src="https://picsum.photos/200/100"
+                alt="Test image map" />
+
+    </li>
+    <li>
+        <h3>Article element: </h3>
+        <article>
+            <h4>Google Chrome</h4>
+            <p>Google Chrome is a web browser developed by Google, released in 2008. However, I mainly use it to play Google Atari Breakout </p>
+        </article>
+    </li>
+    <li>
+        <h3> Aside element</h3>
+        <h4>Mount Fuji</h4>
+        <p>
+            Mount Fuji is the highest mountain in Japan and one of the country’s most
+            famous landmarks. It is an active stratovolcano about 100 kilometers
+            southwest of Tokyo.
+        </p>
+        <aside>
+            <h4>Fun Fact</h4>
+            <p>
+                Mount Fuji is climbed by more than 300,000 people every year during the
+                official climbing season in July and August.
+            </p>
+        </aside>
+    </li>
+    <li>
+        <h2>Audio Example</h2>
+        <audio controls>
+            <source src="Beatles.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+    </li>
 </ol>
 </body>
 </html>
