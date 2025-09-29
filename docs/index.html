@@ -588,7 +588,7 @@
     <li>
         <h3> Content Attribute</h3>
         <p>this page refreshes every minute</p>
-        <meta http-equiv="refresh" content="60">
+        <meta http-equiv="refresh" content="3600">
     </li>
 
     <li>
@@ -627,10 +627,80 @@
         </form>
     </li>
 
+    <li>
+        <h3>The max Attribute</h3>
+        <p>Choose a number max is 10:</p>
+        <input type="number" max="10">
+    </li>
 
+    <li>
+        <h3>The maxlength Attribute</h3>
+        <p>Enter text less than or equal to 5 characters:</p>
+        <input type="text" maxlength="5">
+    </li>
 
+    <li>
+        <h3>The min Attribute</h3>
+        <p>Choose a number min is 10:</p>
+        <input type="number" min="10">
+    </li>
 
+    <li>
+        <h3>The mixlength Attribute</h3>
+        <p>Enter text greater than or equal to 5 characters:</p>
+        <input type="text" minlength="5">
+    </li>
 
+    <li>
+        <h3>The multiple Attribute</h3>
+        <p>You can choose multiple files</p>
+        <input type="file" multiple>
+    </li>
+
+    <li>
+        <h3>The pattern, required, and placeholder Attribute</h3>
+        <form>
+            <label>Enter exactly 3 numbers:
+                <input type="text" pattern="[0-9]{3}" placeholder="123" required>
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+    </li>
+
+    <li>
+        <h3>The readonly Attribute</h3>
+        <input type="text" value="This is read-only" readonly>
+    </li>
+
+    <li>
+        <h3>The rel Attribute</h3>
+        <p>
+            This link opens in a new tab with
+            <code>rel="noopener noreferrer"</code>:
+        </p>
+        <a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">
+            Visit Wikipedia
+        </a>
+    </li>
+
+    <li>
+        <h3>The size Attribute</h3>
+        <p>Input with visible width of 30 characters:</p>
+        <input type="text" size="30">
+    </li>
+
+    <li>
+        <h3>The step Attribute</h3>
+        <p>Choose a number (step of 5):</p>
+        <input type="number" min="0" max="50" step="5" value="10">
+    </li>
+
+</ol>
+<h1>Global Attributes</h1>
+<ol>
+    <li>
+
+    </li>
 </ol>
 </body>
 </html>
