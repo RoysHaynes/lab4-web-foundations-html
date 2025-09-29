@@ -27,27 +27,27 @@
 
 <h1>Start of my HTML property walk</h1>
 <ol>
-    <li><h3>Anchor element: <a href="https://www.wikipedia.org/"> Visit Wikipedia</a></h3></li>
+    <li><h3>Anchor element <a href="https://www.wikipedia.org/"> Visit Wikipedia</a></h3></li>
 
-    <li><h3>Abbreviation element: <abbr title="World Wide Web">WWW</abbr> </h3> </li>
+    <li><h3>Abbreviation element <abbr title="World Wide Web">WWW</abbr> </h3> </li>
 
     <!-- The <acronym> element is deprecated in HTML5 and replaced by <abbr>.
      I left it here intentionally to see if it still works. -->
-    <li><h3>Acronym element: <acronym title="As Soon As Possible">ASAP</acronym></h3></li>
+    <li><h3>Acronym element <acronym title="As Soon As Possible">ASAP</acronym></h3></li>
 
     <li><h3>Address element: Contact info for author of page </h3>
         <address><a href="rhaynes@sandiego.edu">rhaynes@sandiego.edu</a><br>
         <a href="tel:+14088170682">+1 (408)817‑0682</a><br></address>
     </li>
     <li>
-        <h3>Image Map Area element: </h3>
+        <h3>Image Map Area element </h3>
         <map name="infographic">
             <area shape="rect" coords="0,0,100,100" href="https://developer.mozilla.org/docs/Web/HTML" alt="HTML"/>
         </map>
         <img usemap="#infographic" src="https://picsum.photos/200/100" alt="Test image map"/>
     </li>
     <li>
-        <h3>Article element: </h3>
+        <h3>Article element </h3>
         <article>
             <h4>Google Chrome</h4>
             <p>Google Chrome is a web browser developed by Google, released in 2008. However, I mainly use it to play Google Atari Breakout </p>
@@ -132,8 +132,69 @@
     </li>
 
     <li>
-        <h3></h3>
+        <h3>The Data element</h3>
+        <p>Price: <data value="19.99">$19.99</data></p>
     </li>
+
+    <li>
+        <h3> The HTML Data List Element </h3>
+        <label for="browser">Choose a browser:</label>
+        <input list="browsers" id="browser" name="browser">
+
+        <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Brave">
+        </datalist>
+    </li>
+
+    <li>
+        <h3> The Description Details, List, and Term Element </h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Standard markup language for creating webpages</dd>
+            <dt>Assembly</dt>
+            <dd>Human readable representation of the binary computer instructions that CPUs execute on</dd>
+        </dl>
+    </li>
+
+    <li>
+        <h3> The Deleted Text Element </h3>
+        <p>This is <del>wrong</del> right.</p>
+    </li>
+
+    <li>
+        <h3>The Details and Summary Element</h3>
+        <details>
+            <summary>Click to expand</summary>
+        </details>
+    </li>
+
+    <li>
+        <h3>The Definition (dfn) Element</h3>
+        <p><dfn>HTML</dfn> stands for HyperText Markup Language.</p>
+    </li>
+
+    <li>
+        <h3>The Dialog Element</h3>
+        <dialog open style="margin-left: 1500px;">
+            <p>This dialog is shifted right.</p>
+        </dialog>
+    </li>
+
+    <li>
+        <h3>The Div Element</h3>
+        <div style="border:1px solid black; padding:5px;">
+            This is a generic container.
+        </div>
+    </li>
+
+
+
+
+
+
+
 
 </ol>
 </body>
